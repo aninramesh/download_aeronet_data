@@ -30,7 +30,7 @@ if not os.path.exists(dircontents):
         os.makedirs(dircontents)
 
 '''Reading the input data to download AERONET data from web data service'''
-inputdatadir = '01-input_dir'
+inputdatadir = 'aeronet_list'
 inputfilename = 'input1'
 inputdir = os.sep.join([rootdir, inputdatadir])
 filenames = [name for name in os.listdir(inputdir) if name.startswith(inputfilename)]
