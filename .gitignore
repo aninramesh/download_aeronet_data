@@ -4,5 +4,7 @@
 #example of input file to be used to download aeronet data
 input.csv
 test/
+2024/
+aeronet_data_HARP2/
 aeroonet_list/
 __pycache__/funcLibrary.cpython-38.pyc
