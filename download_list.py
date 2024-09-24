@@ -26,10 +26,10 @@ stations_ = ['CUIABA-MIRANDA',]
 start_date = '2024-03-05'
 end_date = '2024-09-22'
 
-# output directory for the downloaded data
+# output directory for the downloaded data (use a clean/empty directory to avoid conflicts)
 output_dir = '2024'
 
-# input directory for the input data
+# input directory for the input data (use a clean/empty directory to avoid conflicts)
 input_dir = 'aeronet_data_HARP2'
 
 # loop over the stations to download the data
