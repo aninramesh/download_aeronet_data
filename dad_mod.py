@@ -176,4 +176,5 @@ for x in range(0, len(filenames)):
 				'&AOD'+filelevel+'=1&AVG='+str(filedata['avg'][i])
 			print('Downloading: ' + filenameout)
 			filename = wget.download(
-				url, out=os.sep.join([dircontents, filenameout]))
+				url, out=os.sep.join([dircontents, filenameout]), bar=None)
+			print('  saved:', filename)

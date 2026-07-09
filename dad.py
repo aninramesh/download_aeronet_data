@@ -99,4 +99,4 @@ for x in range(0, len(filenames)):
                                 '&year2='+str(filedata['year_final'][i])+'&month2='+filemonthfinal+'&day2='+filedayfinal+\
                                 '&AOD'+filelevel+'=1&AVG='+str(filedata['avg'][i])
                                         
-                filename = wget.download(url, out=os.sep.join([dircontents, filenameout]))
+                filename = wget.download(url, out=os.sep.join([dircontents, filenameout]), bar=None)
